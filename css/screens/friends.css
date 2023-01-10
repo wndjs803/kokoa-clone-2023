@@ -3,8 +3,23 @@
   text-align: center;
   background-color: #fafafa;
   padding: 15px 0;
-  font-size: 16px;
+  font-size: 18px;
+  margin-bottom: 10px;
 }
 #friends-display-link i {
   color: rgba(0, 0, 0, 0.3);
+}
+.friends-screen {
+  padding: 0 var(--horizontal-space);
+}
+.friends-screen__channel {
+  margin-top: 25px;
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
+  padding: 15px;
+}
+.friends-screen__channel-header {
+  margin-bottom: 30px;
+  display: flex;
+  color: rgba(0, 0, 0, 0.5);
+  justify-content: space-between;
 }
