@@ -3,10 +3,12 @@
 @import "variables.css";
 /* Components */
 @import "components/status-bar.css";
+@import "components/nav-bar.css";
 /* Screens  */
 @import "screens/login.css";
 body {
   font-family: "Heebo", sans-serif;
+  height: 1000vh;
 }
 
 /* 사용된 CSS hack 에 대해서 이렇게 이해했습니다.
