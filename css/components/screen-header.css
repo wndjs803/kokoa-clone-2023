@@ -6,6 +6,7 @@
   width: 100%;
   /* position: fixed; */
   box-sizing: border-box;
+  margin-bottom: 15px;
 }
 .screen-heaer__title {
   font-size: 32px;
