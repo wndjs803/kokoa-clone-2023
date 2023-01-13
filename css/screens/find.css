@@ -86,3 +86,23 @@
 .open-post__heart-count span {
   margin-left: 3px;
 }
+@keyframes heartBeat {
+  0% {
+    color: white;
+    transform: none;
+  }
+  50% {
+    color: tomato;
+    transform: scale(1.5);
+  }
+  100% {
+    color: white;
+    transform: none;
+  }
+}
+.open-post__heart-count:hover i {
+  will-change: transform;
+  /* will-change는 브라우저에게 어떠한 변화가 있는지 미리 알려주는 것
+    브라우저가 컴퓨터의 그래픽 카드를 이용해 애니메이션을 가속화 할 수 있다. */
+  animation: heartBeat 1s linear infinite;
+}
